@@ -1,0 +1,12 @@
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\Cocktail.exe.config
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\Cocktail.exe
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\Cocktail.pdb
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\EntityFramework.dll
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\EntityFramework.xml
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\obj\Debug\Cocktail.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\obj\Debug\Cocktail.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\obj\Debug\Cocktail.csproj.CopyComplete
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\obj\Debug\Cocktail.exe
+C:\Users\kaspe\source\H2\Cocktail\Cocktail\obj\Debug\Cocktail.pdb
