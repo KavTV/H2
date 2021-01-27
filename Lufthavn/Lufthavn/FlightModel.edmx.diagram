@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b01c7129bb404ffb95878af517b11d78" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="LufthavnModel.Airline" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LufthavnModel.Airplane" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LufthavnModel.Airport" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LufthavnModel.Flight" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LufthavnModel.Route" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="LufthavnModel.FK__Flights__RouteIC__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Route__ICAO__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Flights__Airplan__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Flights__Arrival__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Flights__Departu__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Route__Arrival__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="LufthavnModel.FK__Route__Departure__34C8D9D1" />
+        <AssociationConnector Association="LufthavnModel.FK__Airplane__Airlin__47DBAE45" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

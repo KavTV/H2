@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LufthavnModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Airlines">
+    <Key>
+      <PropertyRef Name="ICAO" />
+    </Key>
+    <Property Name="ICAO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Airplane">
+    <Key>
+      <PropertyRef Name="No" />
+    </Key>
+    <Property Name="No" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Airline" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Airport">
+    <Key>
+      <PropertyRef Name="IATA" />
+    </Key>
+    <Property Name="IATA" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Country" Type="varchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Flights">
+    <Key>
+      <PropertyRef Name="AirplaneNo" />
+      <PropertyRef Name="Departure" />
+      <PropertyRef Name="Arrival" />
+      <PropertyRef Name="RouteICAO" />
+      <PropertyRef Name="DepartureTime" />
+      <PropertyRef Name="ArrivalTime" />
+    </Key>
+    <Property Name="AirplaneNo" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Departure" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Arrival" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="RouteICAO" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DepartureTime" Type="datetime" Nullable="false" />
+    <Property Name="ArrivalTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Route">
+    <Key>
+      <PropertyRef Name="Departure" />
+      <PropertyRef Name="Arrival" />
+      <PropertyRef Name="ICAO" />
+    </Key>
+    <Property Name="Departure" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Arrival" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ICAO" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Airplane__Airlin__47DBAE45">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="1" />
+    <End Role="Airplane" Type="Self.Airplane" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="ICAO" />
+      </Principal>
+      <Dependent Role="Airplane">
+        <PropertyRef Name="Airline" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Flights__Airplan__2F10007B">
+    <End Role="Airplane" Type="Self.Airplane" Multiplicity="1" />
+    <End Role="Flights" Type="Self.Flights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airplane">
+        <PropertyRef Name="No" />
+      </Principal>
+      <Dependent Role="Flights">
+        <PropertyRef Name="AirplaneNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Flights__Arrival__30F848ED">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="1" />
+    <End Role="Flights" Type="Self.Flights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Flights">
+        <PropertyRef Name="Arrival" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Flights__Departu__300424B4">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="1" />
+    <End Role="Flights" Type="Self.Flights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Flights">
+        <PropertyRef Name="Departure" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Flights__RouteIC__31EC6D26">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="1" />
+    <End Role="Flights" Type="Self.Flights" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="ICAO" />
+      </Principal>
+      <Dependent Role="Flights">
+        <PropertyRef Name="RouteICAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Route__Arrival__2B3F6F97">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="1" />
+    <End Role="Route" Type="Self.Route" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Route">
+        <PropertyRef Name="Arrival" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Route__Departure__34C8D9D1">
+    <End Role="Airport" Type="Self.Airport" Multiplicity="1" />
+    <End Role="Route" Type="Self.Route" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airport">
+        <PropertyRef Name="IATA" />
+      </Principal>
+      <Dependent Role="Route">
+        <PropertyRef Name="Departure" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Route__ICAO__2C3393D0">
+    <End Role="Airlines" Type="Self.Airlines" Multiplicity="1" />
+    <End Role="Route" Type="Self.Route" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Airlines">
+        <PropertyRef Name="ICAO" />
+      </Principal>
+      <Dependent Role="Route">
+        <PropertyRef Name="ICAO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LufthavnModelStoreContainer">
+    <EntitySet Name="Airlines" EntityType="Self.Airlines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airplane" EntityType="Self.Airplane" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Airport" EntityType="Self.Airport" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Flights" EntityType="Self.Flights" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Route" EntityType="Self.Route" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Airplane__Airlin__47DBAE45" Association="Self.FK__Airplane__Airlin__47DBAE45">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="Airplane" EntitySet="Airplane" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Flights__Airplan__2F10007B" Association="Self.FK__Flights__Airplan__2F10007B">
+      <End Role="Airplane" EntitySet="Airplane" />
+      <End Role="Flights" EntitySet="Flights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Flights__Arrival__30F848ED" Association="Self.FK__Flights__Arrival__30F848ED">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Flights" EntitySet="Flights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Flights__Departu__300424B4" Association="Self.FK__Flights__Departu__300424B4">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Flights" EntitySet="Flights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Flights__RouteIC__31EC6D26" Association="Self.FK__Flights__RouteIC__31EC6D26">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="Flights" EntitySet="Flights" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Route__Arrival__2B3F6F97" Association="Self.FK__Route__Arrival__2B3F6F97">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Route" EntitySet="Route" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Route__Departure__34C8D9D1" Association="Self.FK__Route__Departure__34C8D9D1">
+      <End Role="Airport" EntitySet="Airport" />
+      <End Role="Route" EntitySet="Route" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Route__ICAO__2C3393D0" Association="Self.FK__Route__ICAO__2C3393D0">
+      <End Role="Airlines" EntitySet="Airlines" />
+      <End Role="Route" EntitySet="Route" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

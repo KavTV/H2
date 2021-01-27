@@ -1,0 +1,12 @@
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\Lufthavn.exe.config
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\Lufthavn.exe
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\Lufthavn.pdb
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\EntityFramework.dll
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\EntityFramework.xml
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\obj\Debug\Lufthavn.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\obj\Debug\Lufthavn.csproj.CopyComplete
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\obj\Debug\Lufthavn.exe
+C:\Users\kaspe\source\H2\Lufthavn\Lufthavn\obj\Debug\Lufthavn.pdb
