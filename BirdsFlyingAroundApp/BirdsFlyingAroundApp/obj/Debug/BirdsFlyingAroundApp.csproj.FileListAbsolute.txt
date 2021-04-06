@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.exe.config
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.exe
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\bin\Debug\BirdsFlyingAroundApp.pdb
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.exe
+C:\Users\kaspe\source\H2\BirdsFlyingAroundApp\BirdsFlyingAroundApp\obj\Debug\BirdsFlyingAroundApp.pdb

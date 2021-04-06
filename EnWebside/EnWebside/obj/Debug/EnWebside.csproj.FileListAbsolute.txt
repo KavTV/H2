@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\bin\Debug\EnWebside.exe.config
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\bin\Debug\EnWebside.exe
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\bin\Debug\EnWebside.pdb
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\obj\Debug\EnWebside.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\obj\Debug\EnWebside.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\obj\Debug\EnWebside.exe
+C:\Users\kaspe\source\H2\EnWebside\EnWebside\obj\Debug\EnWebside.pdb

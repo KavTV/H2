@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\bin\Debug\Flaskeautomaten.exe.config
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\bin\Debug\Flaskeautomaten.exe
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\bin\Debug\Flaskeautomaten.pdb
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\obj\Debug\Flaskeautomaten.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\obj\Debug\Flaskeautomaten.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\obj\Debug\Flaskeautomaten.exe
+C:\Users\kaspe\source\H2\Flaskeautomaten\Flaskeautomaten\obj\Debug\Flaskeautomaten.pdb

@@ -1,0 +1,114 @@
+﻿<Window x:Name="window" x:Class="WPFBagagesortering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBagagesortering"
+        mc:Ignorable="d"
+        Title="Bagagesortering" Height="450" Width="800"
+        Closing="Window_Closing"
+        >
+    <Window.Resources>
+        <local:BoolToVisibilityConverter x:Key="canvasConverter"/>
+    </Window.Resources>
+    <Grid SizeChanged="Window_SizeChanged">
+        <Grid.LayoutTransform>
+                            <!--Bind the scale x and y to the ScaleValue property in mainwindow-->
+            <ScaleTransform x:Name="ApplicationScaleTransform" 
+                            CenterX="0" 
+                            CenterY="0"
+                            ScaleX="{Binding ElementName=window, Path=ScaleValue}"
+                            ScaleY="{Binding ElementName=window, Path=ScaleValue}"/>
+        </Grid.LayoutTransform>
+        <DockPanel LastChildFill="True" >
+            <!--console panel-->
+            <StackPanel x:Name="ConsoleStackPanel" DockPanel.Dock="Right">
+                <TabControl x:Name="TerminalTabControl">
+                    <TabControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding name}"/>
+                        </DataTemplate>
+                    </TabControl.ItemTemplate>
+                    <TabControl.ContentTemplate>
+                        <DataTemplate>
+                            <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding flightplan}">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Departue" Binding="{Binding Departure}"/>
+                                    <DataGridTextColumn Header="Destination" Binding="{Binding Dest}"/>
+                                    <DataGridTextColumn Header="Passengers" Binding="{Binding passengerAmount}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </TabControl.ContentTemplate>
+                </TabControl>
+            </StackPanel>
+
+            <!--mainwindow-->
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal"  HorizontalAlignment="Center" >
+                <!--Counter panel-->
+                <StackPanel x:Name="CounterStackPanel" Orientation="Vertical" VerticalAlignment="Center" >
+                    <ListView x:Name="CounterListView" BorderBrush="{x:Null}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Canvas Width="60" Height="70" Background="{x:Null}">
+                                    <!--<Rectangle Height="60" Width="60" Fill="#FF0CFF00" />-->
+                                    <Label FontSize="10" Canvas.Top="0" Canvas.Left="5" Content="{Binding name}" Foreground="Black"/>
+                                    <Image Width="60" Canvas.Top="20" Source="/Images/Suitcase_icon.png" />
+                                    <Label Canvas.Top="35" Canvas.Left="10" Content="{Binding LuggageMade}" Foreground="White"/>
+                                </Canvas>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+                <!--Splitter panel-->
+                <StackPanel Orientation="Vertical" Margin="40,0" VerticalAlignment="Center">
+                    <ListView x:Name="SplitterListView" BorderBrush="{x:Null}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Canvas Height="150" Width="150">
+                                    <!--<Rectangle Width="100" Height="80" Fill="#FF0068FF" />-->
+                                    <Image Width="150" Height="150" Source="/Images/FactoryCartoon.jpg"/>
+                                    <Label Canvas.Top="115" Content="Luggage amount:"/>
+                                    <Label Canvas.Top="115" Canvas.Left="100" Content="{Binding IncomingLuggage.Count}"/>
+                                </Canvas>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+
+                </StackPanel>
+                <!--Terminal panel-->
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                    <ListView x:Name="TerminalListView" BorderBrush="{x:Null}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <DataTemplate.Triggers>
+                                    <DataTrigger Binding="{Binding Path=IsFlying}" Value="True">
+                                        <DataTrigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <DoubleAnimation Storyboard.TargetName="TerminalImg" Storyboard.TargetProperty="(Canvas.Top)" To="-70" Duration="0:0:1" AutoReverse="True"/>
+                                                    <DoubleAnimation Storyboard.TargetName="TerminalImg" Storyboard.TargetProperty="(Canvas.Left)" To="70" Duration="0:0:1" AutoReverse="True"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.EnterActions>
+                                    </DataTrigger>
+                                </DataTemplate.Triggers>
+                                <Canvas x:Name="TerminalCanvas" Width="50" Height="50" Margin="0,20">
+                                    <Border BorderThickness="0"/>
+                                    <Image x:Name="TerminalImg" Source="/Images/plane.png" Width="50" Canvas.Top="0" Canvas.Left="0"/>
+                                    <Label Content="{Binding name}" Canvas.Top="10" Canvas.Left="0" />
+                                    <!--Mouse over canvas-->
+                                    <Canvas x:Name="InfoCanvas" Width="50" Height="50" Background="White" Visibility="{Binding Path=IsMouseOver, ElementName=TerminalCanvas,Converter={StaticResource canvasConverter}}">
+                                        <Label Content="{Binding IncomingLuggage.Count}"/>
+                                    </Canvas>
+                                </Canvas>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </StackPanel>
+        </DockPanel>
+
+    </Grid>
+</Window>

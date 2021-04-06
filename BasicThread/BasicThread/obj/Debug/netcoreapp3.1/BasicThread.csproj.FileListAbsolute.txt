@@ -1,0 +1,13 @@
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.exe
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.deps.json
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.runtimeconfig.json
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.runtimeconfig.dev.json
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.dll
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\bin\Debug\netcoreapp3.1\BasicThread.pdb
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.AssemblyInfoInputs.cache
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.AssemblyInfo.cs
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.dll
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.pdb
+C:\Users\kaspe\source\H2\BasicThread\BasicThread\obj\Debug\netcoreapp3.1\BasicThread.genruntimeconfig.cache

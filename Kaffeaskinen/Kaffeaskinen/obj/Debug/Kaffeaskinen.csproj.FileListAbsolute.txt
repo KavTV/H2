@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\bin\Debug\Kaffeaskinen.exe.config
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\bin\Debug\Kaffeaskinen.exe
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\bin\Debug\Kaffeaskinen.pdb
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\obj\Debug\Kaffeaskinen.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\obj\Debug\Kaffeaskinen.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\obj\Debug\Kaffeaskinen.exe
+C:\Users\kaspe\source\H2\Kaffeaskinen\Kaffeaskinen\obj\Debug\Kaffeaskinen.pdb

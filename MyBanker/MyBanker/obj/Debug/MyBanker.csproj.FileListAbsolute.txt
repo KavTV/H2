@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\bin\Debug\MyBanker.exe.config
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\bin\Debug\MyBanker.exe
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\bin\Debug\MyBanker.pdb
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\obj\Debug\MyBanker.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\obj\Debug\MyBanker.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\obj\Debug\MyBanker.exe
+C:\Users\kaspe\source\H2\MyBanker\MyBanker\obj\Debug\MyBanker.pdb

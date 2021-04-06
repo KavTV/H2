@@ -1,0 +1,13 @@
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.exe
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.deps.json
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.runtimeconfig.json
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.runtimeconfig.dev.json
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.dll
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\bin\Debug\netcoreapp3.1\VitosPizza.pdb
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.AssemblyInfoInputs.cache
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.AssemblyInfo.cs
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.dll
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.pdb
+C:\Users\kaspe\source\H2\VitosPizza\VitosPizza\obj\Debug\netcoreapp3.1\VitosPizza.genruntimeconfig.cache

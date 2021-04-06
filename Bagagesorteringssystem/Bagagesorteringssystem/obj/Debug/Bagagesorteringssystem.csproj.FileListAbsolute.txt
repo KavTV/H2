@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\bin\Debug\Bagagesorteringssystem.exe.config
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\bin\Debug\Bagagesorteringssystem.exe
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\bin\Debug\Bagagesorteringssystem.pdb
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\obj\Debug\Bagagesorteringssystem.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\obj\Debug\Bagagesorteringssystem.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\obj\Debug\Bagagesorteringssystem.exe
+C:\Users\kaspe\source\H2\Bagagesorteringssystem\Bagagesorteringssystem\obj\Debug\Bagagesorteringssystem.pdb

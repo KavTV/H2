@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\bin\Debug\BasicThreadSync.exe.config
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\bin\Debug\BasicThreadSync.exe
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\bin\Debug\BasicThreadSync.pdb
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\obj\Debug\BasicThreadSync.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\obj\Debug\BasicThreadSync.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\obj\Debug\BasicThreadSync.exe
+C:\Users\kaspe\source\H2\BasicThreadSync\BasicThreadSync\obj\Debug\BasicThreadSync.pdb

@@ -1,0 +1,13 @@
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.exe
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.deps.json
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.runtimeconfig.json
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.runtimeconfig.dev.json
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.dll
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\bin\Debug\netcoreapp3.1\VarmeDrikke.pdb
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.AssemblyInfoInputs.cache
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.AssemblyInfo.cs
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.dll
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.pdb
+C:\Users\kaspe\source\H2\VarmeDrikke\VarmeDrikke\obj\Debug\netcoreapp3.1\VarmeDrikke.genruntimeconfig.cache

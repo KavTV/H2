@@ -1,0 +1,13 @@
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.exe
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.deps.json
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.runtimeconfig.json
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.runtimeconfig.dev.json
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.dll
+C:\Users\kaspe\source\H2\KampArena\KampArena\bin\Debug\netcoreapp3.1\KampArena.pdb
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.AssemblyInfoInputs.cache
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.AssemblyInfo.cs
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.dll
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.pdb
+C:\Users\kaspe\source\H2\KampArena\KampArena\obj\Debug\netcoreapp3.1\KampArena.genruntimeconfig.cache

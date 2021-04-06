@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\bin\Debug\BasicThreadpool.exe.config
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\bin\Debug\BasicThreadpool.exe
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\bin\Debug\BasicThreadpool.pdb
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\obj\Debug\BasicThreadpool.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\obj\Debug\BasicThreadpool.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\obj\Debug\BasicThreadpool.exe
+C:\Users\kaspe\source\H2\BasicThreadpool\BasicThreadpool\obj\Debug\BasicThreadpool.pdb

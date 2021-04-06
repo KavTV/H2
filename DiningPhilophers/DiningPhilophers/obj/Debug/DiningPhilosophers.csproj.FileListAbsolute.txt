@@ -1,0 +1,7 @@
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\bin\Debug\DiningPhilophers.exe.config
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\bin\Debug\DiningPhilophers.exe
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\bin\Debug\DiningPhilophers.pdb
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\obj\Debug\DiningPhilosophers.csprojAssemblyReference.cache
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\obj\Debug\DiningPhilosophers.csproj.CoreCompileInputs.cache
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\obj\Debug\DiningPhilophers.exe
+C:\Users\kaspe\source\H2\DiningPhilophers\DiningPhilophers\obj\Debug\DiningPhilophers.pdb
