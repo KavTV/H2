@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- No forms used, since it refreshes page and resets the <p> with the result -->
+        Vægt: <input type="text" id="weight" required>
+        Højde: <input type="text" id="height" required>
+        <button onclick="calculateBMI()">Udregn</button>
+
+
+      <p id="BMIResult">Ikke beregnet</p>
+      <p id="BMIGroup"></p>
+    
+      <script>
+        function calculateBMI() {
+          var weight = document.getElementById("weight").value;
+          var height = document.getElementById("height").value;
+
+          result = weight / (height * height);
+
+          resultP = document.getElementById("BMIResult");
+          group = document.getElementById("BMIGroup");
+        //set paragraph to the calculated bmi
+          resultP.innerHTML = result;
+
+        //Change color according to BMI
+          switch(true){
+              case (result < 18.5 && result > 16):
+              resultP.style.color = 'blue';
+              group.innerHTML = "bodyweight deficit"
+              break;
+              case (result < 24 && result > 18.5):
+              resultP.style.color = '#4caf50';
+              group.innerHTML = "norm"
+              break;
+              case (result < 30 && result > 24):
+              resultP.style.color = '#8bc34a';
+              group.innerHTML = "weight over"
+              break;
+              case  (result < 35 && result > 30):
+              resultP.style.color = '#ffeb3b';
+              group.innerHTML = "obesity first degree"
+              break;
+              case  (result < 40 && result > 35):
+              resultP.style.color = '#ff9800';
+              group.innerHTML = "obesity second degree"
+              break;
+              case  (result > 40):
+              resultP.style.color = '#f44336';
+              group.innerHTML = "obesity third degree"
+              break;
+          }
+          
+        }
+        </script>
+</body>
+</html>
