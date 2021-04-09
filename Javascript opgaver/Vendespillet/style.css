@@ -1,0 +1,11 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    cursor: pointer;
+    margin: 10px;
+}
