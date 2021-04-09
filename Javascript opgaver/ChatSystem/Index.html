@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.mjs"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="usernameDiv" class="usernameDiv">
+        Skriv dit navn:
+        <input type="text" id="usernameInput">
+        <button onclick="showChat()">til chat</button>
+    </div>
+    <div id="chatContainer" class="container">
+        <div class="chatHeader">
+            <div class="headerName">Kav</div>
+        </div>
+
+        <div id="chatDiv" class="chatContainer">
+
+        </div>
+
+        <div class="chatInput">
+            <textarea id="chatInput"></textarea>
+            <button onclick="postMessage()">send besked</button>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
